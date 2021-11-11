@@ -25,4 +25,4 @@ spec:
                 name: mobile-simulator-secrets
           env:
             - name: TRANSACTION_SERVICE_URL
-              value: "http://transaction-service:9080/bank/v1/transactions"
+              value: "http://example-bank-transaction-git:9080/bank/v1/transactions"
